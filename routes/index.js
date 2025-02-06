@@ -3,7 +3,7 @@ const router = express.Router();
 
 // Importation des autres fichiers de routes
 const routesUsers = require("./routesUsers");  // Routes utilisateurs
-const routesRoles = require("./routesRoles");  // Routes rôles
+
 const routesRooms = require("./routesRooms");  // Routes salles
 const routesEquipements = require("./routesEquipements");  // Routes équipements
 const routesReservations = require("./routesReservations");  // Routes réservations
@@ -13,7 +13,7 @@ const authRoutes = require("./auth");  // Routes d'authentification
 
 // Utilisation des routes
 router.use("/users", routesUsers); // users pour les utilisateurs
-router.use("/roles", routesRoles); // roles pour les rôles
+
 router.use("/rooms", routesRooms); // rooms pour les salles
 router.use("/equipements", routesEquipements); // equipements pour les équipements
 router.use("/reservations", routesReservations); // reservations pour les réservations  
