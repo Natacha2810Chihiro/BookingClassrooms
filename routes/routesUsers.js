@@ -1,5 +1,7 @@
 const express = require('express');
 const router = express.Router();
+const db = require("../config/db"); 
+
 
 // Exemple de route pour récupérer tous les utilisateurs
 router.get('/', (req, res) => {
