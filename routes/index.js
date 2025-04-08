@@ -12,7 +12,7 @@ const authRoutes = require("./auth");  // Routes d'authentification
 
 
 // Utilisation des routes
-router.use("/users", routesUsers); // users pour les utilisateurs
+router.use("/routes", routesUsers); // users pour les utilisateurs
 
 router.use("/rooms", routesRooms); // rooms pour les salles
 router.use("/equipements", routesEquipements); // equipements pour les équipements
